@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#454547"
+    tools:context=".MuestraGanadorPVE">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageGna"
+            android:layout_width="433dp"
+            android:layout_height="399dp"
+            app:srcCompat="@drawable/exito"
+            tools:layout_editor_absoluteX="-22dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <TextView
+            android:id="@+id/txtganador"
+            android:layout_width="407dp"
+            android:layout_height="80dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Eres un ganador"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.235" />
+
+        <Button
+            android:id="@+id/btnMenu"
+            android:layout_width="181dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="110dp"
+            android:backgroundTint="#F48991"
+            android:drawableLeft="@drawable/icomenu"
+            android:text="MENU"
+            android:textSize="24sp"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="118dp"
+            tools:layout_editor_absoluteY="593dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
